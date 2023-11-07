@@ -1,8 +1,8 @@
 /* ==UserStyle==
-@name         YouTube SFW
-@namespace      github.com/openstyles/stylus
+@name          YouTube SFW
+@namespace     https://github.com/wdwind/YouTubeSFW
 @version       1.0.0
-@description    YouTube SFW: only audio. No video. No image.
+@description   YouTube SFW: only audio. No video. No image.
 @author        wddd
 ==/UserStyle== */
 @-moz-document domain("www.youtube.com") {
@@ -10,6 +10,15 @@
         display: none !important;
     }
     img {
+        display: none !important;
+    }
+    .ytp-ce-video {
+        display: none !important;
+    }
+    .ytp-ce-expanding-image {
+        display: none !important;
+    }
+    .ytp-videowall-still {
         display: none !important;
     }
 }
