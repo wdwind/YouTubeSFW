@@ -21,4 +21,7 @@
     .ytp-videowall-still {
         display: none !important;
     }
+    div {
+        background-image: none !important;
+    }
 }
