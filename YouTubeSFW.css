@@ -24,4 +24,7 @@
     div {
         background-image: none !important;
     }
+    #progress {
+        display: block !important;
+    }
 }
